@@ -1,0 +1,16 @@
+body{
+    background-color: palevioletred;
+}
+
+p{
+    font-size: 10px;
+    color: green;
+}
+
+.div1{
+    font-size:18px;
+    color: mediumorchid;
+    background-color: brown;
+    padding: 5px;
+    border: 1px solid black;
+}

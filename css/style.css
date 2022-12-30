@@ -1,0 +1,29 @@
+/*Arrumando o header*/
+header {
+    background-color: #6E4139;
+    border-top-style: solid;
+    border-top-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-radius: 10px ;
+    width: 1200;
+    height: 111;
+  }
+
+#logo{
+    margin-left: 545px;
+  }
+
+#logo, h4{
+    display: inline-block;
+}
+
+h4 {
+    margin: 20px 0 0 0;
+    padding: 12;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Aref; 
+    font-size:24px;
+  }
