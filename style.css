@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    width: auto;
+    margin: 0;
+}
+
+
+body{
+    margin: 0 auto;
+    background-color: #FDF5D8;
+}
+/* HEADER */
+
+/* Texto HEADER */
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6E4139;
+    padding-inline: 85px;
+}
+
+.inferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-inline: 85px;
+    height: 50px;
+}
+.header div{
+    display: flex;
+    gap: 8px;
+}
+
+.header div a{
+    text-decoration: none;
+    color: #FDF5D8;
+    font-size: 24px;
+}
+
+header .link-header{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/*
+Imagens HEADER
+*/
+
+.header div img{
+    width: 24px;
+    height: 24px;
+}
+
+
+#logo{
+    width: 120px;
+    height: 120px;
+}
+
+
+/* BODY */
+
+.divbody{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 60px;
+    margin-top: 80px;
+}
+
+.divbody div h1{
+    font-size: 36px;
+}
+
+.divbody div p1{
+    font-size: 24px;
+}
+
+.divbody div p2{
+    font-size: 24px;
+}
+
+#rpg{
+    width: 530px;
+    height: 530px;
+    border-radius: 31px;
+}
+
+.conteudo-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6E4139;
+    padding-inline: 85px;
+}
