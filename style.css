@@ -111,8 +111,8 @@ footer {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 185px;
+    padding-bottom: 185px;
   }
 
   /*Classes*/
@@ -144,7 +144,7 @@ footer {
   }
   
   .lista-contatos li a {
-      color: white;
+      color: black;
       text-decoration: none;
   }
 
@@ -163,22 +163,24 @@ footer {
   }
 
   footer {
-      background-color: #6E4139;
+      background-color: #FDF5D8;
       width: 100%;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       padding: 35px; 
-      color: white;
+      color: black;
   }
   .bot1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 15px auto;
     border-color: #6E4139;
     border-radius: 50px;
+    background: #6E4139;
   }
   .bot1:hover {
     background-color:#6E4139;
     border-color: #6E4139;
     color:#6E4139;
+    border-radius: 50px;
   }
 
   .main-tela-inicial {
@@ -188,6 +190,7 @@ footer {
 
   .segundo-main{
     background-color: #6E4139;
+    color: #FDF5D8;
   }
   
   .inicio {
