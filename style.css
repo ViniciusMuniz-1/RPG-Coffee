@@ -133,7 +133,9 @@ footer {
 
 
 /* MAIN */
-
+h5{
+    color: white;
+}
 .inicio {
     display: flex;
     flex-direction: row;
@@ -161,7 +163,7 @@ footer {
   
   .secao {
     text-align: left;
-    padding: 70px;
+    padding: 100px;
     width: 40%;
     flex: 1;    
   }
