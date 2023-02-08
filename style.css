@@ -163,10 +163,20 @@ h5{
   
   .secao {
     text-align: left;
-    padding: 100px;
+    padding: 150px;
     width: 40%;
     flex: 1;    
+    color: #6E4139;
   }
+
+  .secao2 {
+    text-align: left;
+    padding: 150px;
+    width: 40%;
+    flex: 1;    
+    color: #f5e3a1;
+  }
+  
   
   .secao-descricao{
     padding-bottom: 0px;
@@ -185,7 +195,7 @@ h5{
     
   #botaoComece:hover {
     background-color:#6E4139;
-    border-color: #6E4139;
+    border-color: #f5e3a1;
     border-radius: 50px;
     color: #f5e3a1;
   }
@@ -210,7 +220,7 @@ h5{
 
   
   /*Zona da responsividade*/
-  @media screen and (max-width: 375px){
+  @media screen and (max-device-width: 900px){
   .footer-container {
       display: flex;
       justify-content: space-around;
@@ -231,11 +241,20 @@ h5{
       font-size: small;
   }
 
-  .header{
+  .divheader{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    flex-direction: column;
+    flex-direction:row;
     gap: 24px;
   }
+
+  .header div a{
+      font-size: 14px;
+  }
+  .header div img{
+    width: 20px;
+    height: 20px;
+}
+
 }
