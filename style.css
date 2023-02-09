@@ -8,6 +8,12 @@
 
 /* Texto HEADER */
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -160,6 +166,7 @@ main {
 
 
 .main-tela-inicial {
+    margin-top: 80px;
     width: 100%;
     background-color: #FDF5D8;
 }
